@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Success</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="success-box">
+<h1>Booking Successful</h1>
+<h2>Thank You {{ name }}</h2>
+<p>Your ticket booked in {{ bus }}</p>
+<a href="/home"><button>Go Home</button></a>
+</div>
+
+</body>
+</html>
